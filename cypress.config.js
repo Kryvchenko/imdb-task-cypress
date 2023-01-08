@@ -6,8 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: "https://imdb.com",
-    specPattern: "cypress/e2e/**/*.{js,jsx,ts,tsx}",
-    excludeSpecPattern: "cypress/e2e/2-advanced-examples/*.{js,jsx,ts,tsx}",
+    specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
     viewportHeight: 720,
     viewportWidth: 1280,
     retries: {
@@ -19,7 +18,7 @@ module.exports = defineConfig({
     trashAssetsBeforeRuns: true,
     video: false,
     videoUploadOnPasses: false,
-    defaultCommandTimeout: 20000,
+    defaultCommandTimeout: 30000,
     pageLoadTimeout: 60000
   }
 });

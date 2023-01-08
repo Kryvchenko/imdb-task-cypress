@@ -6,7 +6,7 @@ describe("Visit actor`s page and sort his filmographie", () => {
   beforeEach(() => {
     ActorPage.visitBasePage("/");
   });
-  data.forEach((el) => {
+  data.map((el) => {
     it(`Should allow to open actor ${el.actorName} page and sort filmographie by rating including only featured movies`, () => {
       ActorPage.setNameAndNavigateActorToPage(el.actorName);
       ActorPage.actorHeader.then((header) => {
