@@ -9,6 +9,10 @@ module.exports = defineConfig({
     specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
     viewportHeight: 720,
     viewportWidth: 1280,
+    reporter: "cypress-multi-reporters",
+    reporterOptions: {
+      configFile: "reporter-config.json"
+    },
     retries: {
       runMode: 1,
       openMode: 0
