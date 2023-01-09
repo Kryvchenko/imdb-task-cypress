@@ -26,6 +26,7 @@ class ActorPage extends BasePage {
   }
   setNameAndNavigateActorToPage(name) {
     this.searchInputField.type(name);
+    cy.wait(1000);
     this.selectChoiceField.click({ force: true });
   }
   navigateToFilmographie() {

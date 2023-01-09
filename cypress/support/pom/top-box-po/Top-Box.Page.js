@@ -12,7 +12,7 @@ class TopBoxPage extends BasePage {
     return cy.get(".ipc-starbar__rating__button:nth-child(5)");
   }
   get confirmRateBtn() {
-    return cy.get(".ipc-rating-prompt__rating-container > .ipc-button");
+    return cy.get(".ipc-rating-prompt__rating-container > .ipc-btn");
   }
 
   rateItemFromTheList() {
