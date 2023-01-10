@@ -35,3 +35,4 @@
    - `npm run triggerTVShowPageTests`
    - `npm run triggerActorPageTests`
    - `npm run triggerTopBoxPageTests`
+8. To run pre-commit hook with prettier formated document `npm test`
