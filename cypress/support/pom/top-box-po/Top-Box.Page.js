@@ -1,3 +1,6 @@
+/**
+ * Top-Box-Office page class for IMDB.com tests with cypress
+ */
 import constants from "../../../utils/constans";
 import BasePage from "../base-po/Base.Page";
 
@@ -15,6 +18,9 @@ class TopBoxPage extends BasePage {
     return cy.get(".ipc-rating-prompt__rating-container > .ipc-btn");
   }
 
+  /**
+   * Rate the current item with 5 stars
+   */
   rateItemFromTheList() {
     this.getRateBtn.contains(constants.rateSelector).click({
       force: true
