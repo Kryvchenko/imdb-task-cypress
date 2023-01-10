@@ -23,14 +23,14 @@ class TopBoxPage extends BasePage {
    */
   rateItemFromTheList() {
     this.getRateBtn.contains(constants.rateSelector).click({
-      force: true
+      force: true,
     });
     this.fiveStarRate.click({
       multiple: true,
-      force: true
+      force: true,
     });
     this.confirmRateBtn.click({
-      force: true
+      force: true,
     });
   }
 }

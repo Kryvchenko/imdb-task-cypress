@@ -1,0 +1,8 @@
+node_modules/
+mochawesome-report/
+results/
+reporter-config.json
+cypress.config.js
+commands.js
+e2e.js
+mochawesome.json

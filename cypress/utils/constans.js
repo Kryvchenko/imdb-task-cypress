@@ -6,5 +6,5 @@ module.exports = {
   tvShowBtnText: "Top 250 TV Shows",
   topBoxBtnText: "Top Box Office",
   ratingBtnText: "by Rating",
-  featuredFilmSelectBoxText: "Feature Film"
+  featuredFilmSelectBoxText: "Feature Film",
 };
