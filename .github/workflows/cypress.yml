@@ -1,9 +1,10 @@
-name: imdb cypress task
+name: IMDB task cypress
+
 on: [push]
+
 jobs:
-  test:
-    # use the reusable workflow to check out the code, install dependencies
-    # and run the Cypress tests
-    # https://github.com/bahmutov/cypress-workflows
-    uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
-    with: npx cypress run
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
