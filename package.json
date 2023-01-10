@@ -7,7 +7,6 @@
     "test": "npx cypress open",
     "triggerAllTests-headless": "npx cypress run",
     "triggerAllTests-chrome": "npx cypress run --browser chrome",
-    "triggerAllTests-firefox": "npx cypress run --browser firefox",
     "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml", 
     "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
     "delete-results": "rm -rf cypress/results/* || true", 
