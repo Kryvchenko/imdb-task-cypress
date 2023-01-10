@@ -6,4 +6,4 @@ jobs:
     # and run the Cypress tests
     # https://github.com/bahmutov/cypress-workflows
     uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
-    with: npm run triggerAllTests-headless
+    with: npx cypress run
