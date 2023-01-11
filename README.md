@@ -20,8 +20,9 @@
 3. Mochawesome report (mochawesome-report dir)
 4. Jenkiinsfile with pipeline script to run tests
 5. All methods are made universal for reusability reasons with the different test scenarios (depends on "film actor name", "TV show", "TV show actor name")
-6. Pre-commit hook to run Prettier/Eslint for auto code formatting before commit
-7. Add data-driven test suite (use the data file to dynamically create test cases)
+6. Pre-commit hook to run Prettier for auto code formatting before commit
+7. Added data-driven test suite (use the data file to dynamically create test cases)
+8. Github Actions yml file
 
 ## Setup:
 
